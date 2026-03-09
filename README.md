@@ -1,60 +1,44 @@
-# Mini JavaScript Experiments
+# Mini Projects in JavaScript
 
-This repository contains a collection of small JavaScript experiments and mini projects created to deepen my understanding of core JavaScript concepts and modern frontend patterns.
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)  ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-The main goal is to explore how different approaches work, including:
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Project List](#project-list)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-- Vanilla JavaScript implementations
-- Comparisons between Vanilla JavaScript and Vue concepts
-- Small interactive UI experiments
-- Understanding reactivity and component-like patterns
+## Introduction
+This repository contains several mini projects that demonstrate various concepts and techniques in JavaScript. These projects are designed for beginners who want to improve their coding skills and understand the fundamentals of JavaScript programming.
 
-## Why This Repository Exists
+## Project List
+### 1. To-Do List
+A simple application that allows users to add, remove, and manage tasks. Users can mark tasks as complete and filter tasks based on their statuses.
 
-While learning Vue, I wanted to make sure that I fully understand the JavaScript fundamentals behind it.  
-Since many frameworks are built on top of strong JavaScript patterns, this repository focuses on building small things from scratch and then comparing them with how frameworks like Vue handle similar problems.
+### 2. Weather App
+This project fetches weather data from an open API and displays current weather information based on user input for city names.
 
-This approach helps in understanding:
+### 3. Calculator
+A basic calculator that performs addition, subtraction, multiplication, and division. It has a user-friendly interface and performs calculations instantly.
 
-- State management
-- UI updates
-- Event handling
-- Reactive patterns
-- Component-like architecture using plain JavaScript
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/mohammadsobhy/mini-projects-js.git
+   ```
+2. Open the folder:
+   ```bash
+   cd mini-projects-js
+   ```
+3. Open the `index.html` file in your browser to view the projects.
 
-## Project Structure
+## Usage
+- Follow the instructions given in each project's README file within their respective directories to understand how to use each project.
 
-Each folder contains a small isolated experiment or mini project.
+## Contributing
+If you would like to contribute to this repository, please fork the repo and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-Examples may include:
-
-- Dynamic UI updates with Vanilla JS
-- Simple reactive-like state patterns
-- Comparisons between framework-driven and framework-less implementations
-
-The goal is not to build large applications here, but to experiment with concepts and keep the code simple and easy to understand.
-
-## Tech Focus
-
-- JavaScript
-- DOM Manipulation
-- Basic reactive patterns
-
-
-## Learning Philosophy
-
-I prefer learning by building small practical experiments instead of only watching courses.  
-This repository is part of that process.
-
-## Related Work
-
-You can also check my larger project here:
-
-Pizza Builder  
-https://github.com/mohammadsobhy/Pizza-Builder
-
-This project explores configurable product builders and dynamic UI logic, which could later evolve into more complex UI systems.
-
-## Author
-
-Mohammad Sobhy Ibrahim
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
